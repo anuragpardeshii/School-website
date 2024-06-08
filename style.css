@@ -233,7 +233,7 @@ img {vertical-align: middle;}
 }
 
 .our-purpose img{
-    border-radius: 3rem;
+    border-radius: 2.5rem;
     height: 30rem;
     padding: 2rem;
 }
@@ -242,3 +242,13 @@ img {vertical-align: middle;}
     max-width: 40rem;
     padding: 2rem;
 }
+
+.right-container h1{
+    color: var(--main-color);
+    font-size: 3rem;
+}
+
+.right-container span{
+    color: var(--yellow);
+}
+
