@@ -38,7 +38,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    padding: 15px;
+    padding: 25px 10px;
     z-index: 1000;
     color: var(--black);
     background-color: rgba(255,255,255,0);
@@ -94,8 +94,8 @@ body {
 }
 
 .our-programmes{
-    background-color: var(--yellow);
-    padding: 1rem 0;
+    background-image: url(./images/yellowBg1s.png);
+    padding: 2rem 0;
 }
 
 .nav-links li a {
@@ -111,7 +111,9 @@ body {
 }
 
 .navbar.sticky{
-    background-color: var(--main-color);
+    background-color: rgba(11, 36, 65);
+    z-index: 100;
+
 }
 
 .navbar.sticky .nav-links li a {
@@ -135,8 +137,7 @@ img {vertical-align: middle;}
 }
 
 .mySlides img{
-    height: 40rem;
-    object-fit: cover;
+    height: 100vh;
 }
 
 /* Caption text */
@@ -252,3 +253,50 @@ img {vertical-align: middle;}
     color: var(--yellow);
 }
 
+.play-video{
+    background-image: url(./images/yellowBg.png);
+    padding: 2rem 0;
+}
+
+.play-video video{
+    border-radius: 1rem;
+    height: 80vh;
+}
+
+.button {
+    background-color: var(--main-color);
+    border: none;
+    color: var(--white);
+    padding: 10px 8px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: .5rem;
+    margin: 4px 2px;
+    padding-left: 1rem;
+    cursor: pointer;
+  }
+
+  .button i{
+    font-size: 1rem;
+    padding: 0 .3rem;
+  }
+
+  .button:hover{
+    background-color: var(--yellow);
+    color: var(--white);
+}
+
+.about-slide{
+    padding: 2rem 0;
+    display: flex;
+    justify-content: center;
+    background-image: url(./images/whitebg.jpg);
+}
+
+.about-slide img{
+    border-radius: 2.5rem;
+    height: 30rem;
+    padding: 2rem;
+}
