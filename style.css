@@ -116,13 +116,17 @@ body {
 
 }
 
+.navbar.sticky .logo a{
+    color: var(--white);
+}
+
 .navbar.sticky .nav-links li a {
     color: var(--white);
     transition: all 0.4s ease;
 }
 
 .navbar.sticky .nav-links li a:hover {
-    color: #0E2431;
+    color: var(--white);
 }
 
 /*sliding images*/
@@ -300,3 +304,44 @@ img {vertical-align: middle;}
     height: 30rem;
     padding: 2rem;
 }
+
+/*side bar*/
+.sidenav {
+    height: 100%;
+    width: 0;
+    position: fixed;
+    z-index: 100000;
+    top: 0;
+    right: 0;
+    background-color: var(--main-color);
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 10rem;
+  }
+  
+  .sidenav a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: var(--white);
+    display: block;
+    transition: 0.3s;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  .sidenav .closebtn {
+    position: absolute;
+    top: 0;
+    padding-top: 6rem;
+    left: 5px;
+    font-size: 36px;
+    margin-right: 50px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
