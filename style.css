@@ -74,7 +74,7 @@ body {
 }
 
 .logo img {
-    height: 3rem;
+    width: 3rem;
 }
 
 .nav-content .nav-links {
@@ -373,3 +373,78 @@ img {vertical-align: middle;}
     align-items: center;
   }
 
+  .rewards h1{
+    color: var(--white);
+    font-size: 3rem;
+    padding: 1rem;
+}
+
+.rewards span{
+    color: var(--main-color);
+}
+
+/*footer*/
+footer {
+    background-color: var(--main-color);
+    color: #f8f9fa;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+footer h2, footer h3 {
+    margin: 1rem 0;
+    color: #ffffff;
+}
+
+footer p, footer a {
+    margin: 0.5rem 0;
+    color: #ced4da;
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: #f8f9fa;
+}
+
+footer ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+footer ul li {
+    display: inline;
+    margin: 0 1rem;
+}
+
+footer .social-icons a i {
+    font-size: 1.5rem;
+    margin: 0 0.5rem;
+}
+
+.footer-section {
+    margin-bottom: 2rem;
+}
+
+@media (max-width: 768px) {
+    footer ul li {
+        display: block;
+        margin: 0.5rem 0;
+    }
+}
+
+@media (max-width: 480px) {
+    footer {
+        padding: 1rem 0.5rem;
+    }
+
+    footer h2, footer h3 {
+        margin: 0.5rem 0;
+        font-size: 1.5rem;
+    }
+
+    footer p, footer a {
+        margin: 0.25rem 0;
+        font-size: 1rem;
+    }
+}
